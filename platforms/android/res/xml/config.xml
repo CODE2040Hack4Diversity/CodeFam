@@ -10,7 +10,7 @@
     <feature name="InAppBrowser">
         <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
     </feature>
-    <name>Coins</name>
+    <name>CodeFam</name>
     <description>
     </description>
     <author email="hi@ionicframework" href="http://ionicframework.com/">
