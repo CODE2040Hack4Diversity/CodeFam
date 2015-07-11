@@ -48,6 +48,7 @@ angular.module('codefam', ['ionic', "ngCordova", "ngAnimate", "codefam.usercontr
     views: {
       "content-index": {
         templateUrl: "app/views/main/index.html",
+        controller: "MainCtrlIndex",
       }
     }
   })
