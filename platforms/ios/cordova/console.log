@@ -1,0 +1,60 @@
+2015-06-05 14:00:39.007 brainstorm[8993:1055833] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/glopes/Library/Developer/CoreSimulator/Devices/7ABF2DCB-A088-41A0-9E3D-7D2A84616BD8/data/Containers/Data/Application/DABAE19B-020A-4CD0-B66B-C6FEB827B438/Library/Cookies/Cookies.binarycookies
+2015-06-05 14:00:39.228 brainstorm[8993:1055833] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-05 14:00:39.229 brainstorm[8993:1055833] Multi-tasking -> Device: YES, App: YES
+2015-06-05 14:00:39.243 brainstorm[8993:1055833] Unlimited access to network resources
+2015-06-05 14:00:39.707 brainstorm[8993:1055833] Resetting plugins due to page load.
+2015-06-05 14:00:39.962 brainstorm[8993:1055833] Finished load of: file:///Users/glopes/Library/Developer/CoreSimulator/Devices/7ABF2DCB-A088-41A0-9E3D-7D2A84616BD8/data/Containers/Bundle/Application/C1457BFB-A8D0-4FB8-A2F7-5A121285F0E8/brainstorm.app/www/index.html#/prelogin
+2015-06-05 14:03:33.033 brainstorm[8993:1066266] Terminating since there is no system app.
+2015-06-05 22:09:54.199 brainstorm[5005:761232] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/glopes/Library/Developer/CoreSimulator/Devices/7ABF2DCB-A088-41A0-9E3D-7D2A84616BD8/data/Containers/Data/Application/864D30B5-8E6D-40D9-83F8-684E59B536C8/Library/Cookies/Cookies.binarycookies
+2015-06-05 22:09:54.448 brainstorm[5005:761232] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-05 22:09:54.448 brainstorm[5005:761232] Multi-tasking -> Device: YES, App: YES
+2015-06-05 22:09:54.463 brainstorm[5005:761232] Unlimited access to network resources
+2015-06-05 22:09:54.994 brainstorm[5005:761232] Resetting plugins due to page load.
+2015-06-05 22:09:55.205 brainstorm[5005:761232] Finished load of: file:///Users/glopes/Library/Developer/CoreSimulator/Devices/7ABF2DCB-A088-41A0-9E3D-7D2A84616BD8/data/Containers/Bundle/Application/F3D66E45-6714-4E26-BA6F-74CAD27C26F9/brainstorm.app/www/index.html#/login
+2015-06-05 22:12:56.563 brainstorm[5005:762706] Terminating since there is no system app.
+2015-06-10 11:41:45.820 brainstorm[45407:6369545] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/glopes/Library/Developer/CoreSimulator/Devices/7ABF2DCB-A088-41A0-9E3D-7D2A84616BD8/data/Containers/Data/Application/17DCA89E-AF9A-4D77-AA74-B7443BF4CCB2/Library/Cookies/Cookies.binarycookies
+2015-06-10 11:41:46.070 brainstorm[45407:6369545] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-10 11:41:46.071 brainstorm[45407:6369545] Multi-tasking -> Device: YES, App: YES
+2015-06-10 11:41:46.086 brainstorm[45407:6369545] Unlimited access to network resources
+2015-06-10 11:41:46.557 brainstorm[45407:6369545] Resetting plugins due to page load.
+2015-06-10 11:41:46.769 brainstorm[45407:6369545] Finished load of: file:///Users/glopes/Library/Developer/CoreSimulator/Devices/7ABF2DCB-A088-41A0-9E3D-7D2A84616BD8/data/Containers/Bundle/Application/398E970E-D308-4349-9A86-64072D289217/brainstorm.app/www/index.html#/login
+2015-06-10 11:42:10.412 brainstorm[45407:6369545] CDVWebViewDelegate: Navigation started when state=1
+2015-06-10 11:42:10.412 brainstorm[45407:6369545] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2015-06-10 11:42:15.203 brainstorm[45407:6369545] CDVWebViewDelegate: Navigation started when state=1
+2015-06-10 11:42:15.203 brainstorm[45407:6369545] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2015-06-10 11:44:23.155 brainstorm[45826:6391596] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/glopes/Library/Developer/CoreSimulator/Devices/7ABF2DCB-A088-41A0-9E3D-7D2A84616BD8/data/Containers/Data/Application/F69A09CB-C324-429B-9AF4-514822D24D02/Library/Cookies/Cookies.binarycookies
+2015-06-10 11:44:23.234 brainstorm[45826:6391596] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-10 11:44:23.235 brainstorm[45826:6391596] Multi-tasking -> Device: YES, App: YES
+2015-06-10 11:44:23.236 brainstorm[45826:6391596] Unlimited access to network resources
+2015-06-10 11:44:23.335 brainstorm[45826:6391596] Resetting plugins due to page load.
+2015-06-10 11:44:23.459 brainstorm[45826:6391596] Finished load of: file:///Users/glopes/Library/Developer/CoreSimulator/Devices/7ABF2DCB-A088-41A0-9E3D-7D2A84616BD8/data/Containers/Bundle/Application/03AA9080-4312-4F67-9AF6-8C616315F1D5/brainstorm.app/www/index.html#/login
+2015-07-01 14:02:43.005 Coins[27622:3266839] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/glopes/Library/Developer/CoreSimulator/Devices/7ABF2DCB-A088-41A0-9E3D-7D2A84616BD8/data/Containers/Data/Application/172BE1B9-6B1E-4044-BC90-3A613A5E1514/Library/Cookies/Cookies.binarycookies
+2015-07-01 14:02:43.243 Coins[27622:3266839] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-01 14:02:43.243 Coins[27622:3266839] Multi-tasking -> Device: YES, App: YES
+2015-07-01 14:02:43.255 Coins[27622:3266839] Unlimited access to network resources
+2015-07-01 14:02:43.723 Coins[27622:3266839] Resetting plugins due to page load.
+2015-07-01 14:02:43.950 Coins[27622:3266839] Finished load of: file:///Users/glopes/Library/Developer/CoreSimulator/Devices/7ABF2DCB-A088-41A0-9E3D-7D2A84616BD8/data/Containers/Bundle/Application/63BA5504-42B7-48D5-BFFF-1043818EFCE5/Coins.app/www/index.html#/login
+2015-07-01 14:04:00.776 Coins[28020:3279230] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/glopes/Library/Developer/CoreSimulator/Devices/7ABF2DCB-A088-41A0-9E3D-7D2A84616BD8/data/Containers/Data/Application/C841BA17-0CEF-4FA8-9E5F-BC8974523708/Library/Cookies/Cookies.binarycookies
+2015-07-01 14:04:00.896 Coins[28020:3279230] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-01 14:04:00.896 Coins[28020:3279230] Multi-tasking -> Device: YES, App: YES
+2015-07-01 14:04:00.898 Coins[28020:3279230] Unlimited access to network resources
+2015-07-01 14:04:01.033 Coins[28020:3279230] Resetting plugins due to page load.
+2015-07-01 14:04:01.222 Coins[28020:3279230] Finished load of: file:///Users/glopes/Library/Developer/CoreSimulator/Devices/7ABF2DCB-A088-41A0-9E3D-7D2A84616BD8/data/Containers/Bundle/Application/2586F75B-793D-4012-8486-F5A100FCFB8B/Coins.app/www/index.html#/login
+2015-07-01 14:05:43.629 Coins[28418:3295462] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/glopes/Library/Developer/CoreSimulator/Devices/7ABF2DCB-A088-41A0-9E3D-7D2A84616BD8/data/Containers/Data/Application/674E646F-1503-44E7-AD2D-9D006A96DABE/Library/Cookies/Cookies.binarycookies
+2015-07-01 14:05:43.762 Coins[28418:3295462] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-01 14:05:43.762 Coins[28418:3295462] Multi-tasking -> Device: YES, App: YES
+2015-07-01 14:05:43.764 Coins[28418:3295462] Unlimited access to network resources
+2015-07-01 14:05:43.894 Coins[28418:3295462] Resetting plugins due to page load.
+2015-07-01 14:05:44.063 Coins[28418:3295462] Finished load of: file:///Users/glopes/Library/Developer/CoreSimulator/Devices/7ABF2DCB-A088-41A0-9E3D-7D2A84616BD8/data/Containers/Bundle/Application/786DBDAF-9CEC-4DFD-9CBD-CD095B6F0B0B/Coins.app/www/index.html#/login
+2015-07-01 14:06:10.744 Coins[28769:3299693] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/glopes/Library/Developer/CoreSimulator/Devices/7ABF2DCB-A088-41A0-9E3D-7D2A84616BD8/data/Containers/Data/Application/9F82B4E7-7508-4056-BD1A-DD6B77EE3C3B/Library/Cookies/Cookies.binarycookies
+2015-07-01 14:06:10.858 Coins[28769:3299693] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-01 14:06:10.858 Coins[28769:3299693] Multi-tasking -> Device: YES, App: YES
+2015-07-01 14:06:10.861 Coins[28769:3299693] Unlimited access to network resources
+2015-07-01 14:06:11.024 Coins[28769:3299693] Resetting plugins due to page load.
+2015-07-01 14:06:11.212 Coins[28769:3299693] Finished load of: file:///Users/glopes/Library/Developer/CoreSimulator/Devices/7ABF2DCB-A088-41A0-9E3D-7D2A84616BD8/data/Containers/Bundle/Application/D6795EAD-0FF2-4D9F-82E3-F4D7D4A558E3/Coins.app/www/index.html#/login
+2015-07-01 14:07:20.930 Coins[29171:3310441] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/glopes/Library/Developer/CoreSimulator/Devices/7ABF2DCB-A088-41A0-9E3D-7D2A84616BD8/data/Containers/Data/Application/0F312C10-21AA-4610-9981-F8C5C26C5FF9/Library/Cookies/Cookies.binarycookies
+2015-07-01 14:07:21.047 Coins[29171:3310441] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-01 14:07:21.048 Coins[29171:3310441] Multi-tasking -> Device: YES, App: YES
+2015-07-01 14:07:21.050 Coins[29171:3310441] Unlimited access to network resources
+2015-07-01 14:07:21.199 Coins[29171:3310441] Resetting plugins due to page load.
+2015-07-01 14:07:21.382 Coins[29171:3310441] Finished load of: file:///Users/glopes/Library/Developer/CoreSimulator/Devices/7ABF2DCB-A088-41A0-9E3D-7D2A84616BD8/data/Containers/Bundle/Application/D991E5BD-BB2A-43CC-9902-F2D215556B7B/Coins.app/www/index.html#/login
