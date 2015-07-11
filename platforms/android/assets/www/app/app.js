@@ -14,9 +14,6 @@ angular.module('codefam', ['ionic', "ngCordova", "ngAnimate", "codefam.usercontr
       StatusBar.styleDefault();
     }
 
-    if(ionic.Platform.isWebView() && $cordovaGoogleAnalytics) {
-    } 
-
     if(window.Connection){
       if($cordovaNetwork.isOffline()) {
         $ionicPopup.alert({
@@ -51,6 +48,7 @@ angular.module('codefam', ['ionic', "ngCordova", "ngAnimate", "codefam.usercontr
     views: {
       "content-index": {
         templateUrl: "app/views/main/index.html",
+        controller: "MainCtrlIndex",
       }
     }
   })

@@ -60,5 +60,5 @@ angular.module('codefam', ['ionic', "ngCordova", "ngAnimate", "codefam.usercontr
     controller: "UserCtrlLogin",
   });
   
-  $urlRouterProvider.otherwise('/');
+  $urlRouterProvider.otherwise('/home/index');
 })

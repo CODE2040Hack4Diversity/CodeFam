@@ -1,14 +1,18 @@
-<ion-view>
+<ion-view class="grey lighten-3">
 	<ion-content class="has-header gray-body">
-    <div class="card waves-effect waves-block waves-light activator">
+    <div class="card margin person-card centering" on-swipe-left="get_next()">
       <div class="card-content">
-        <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+        <span class="card-title grey-text text-darken-4">Card Title<i class="icon ion-ios-close right card-icon" ng-click="see_more()"></i></span>
         <p><a href="#!">This is a link</a></p>
       </div>
-      <div class="card-reveal" style="display: none; transform: translateY(0px);">
-        <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+      <div class="card-reveal show-tab" ng-hide="clicked">
+        <span class="card-title grey-text text-darken-4">Card Title<i class="icon ion-ios-plus material-icons right card-icon" ng-click="see_more()"></i></span>
         <p>Here is some more information about this product that is only revealed once clicked on.</p>
       </div>
     </div>
+
+		<div class="bar bar-subheader sub-menu z-depth-4">
+		  <h1 class="title light-text">Filters</h1>
+		</div>
 	</ion-content>
 </ion-view>

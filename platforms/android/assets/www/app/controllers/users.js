@@ -10,3 +10,4 @@
   app.controller('UserCtrlMenu', function($scope, $state, $ionicViewSwitcher){
   });
 })();
+
