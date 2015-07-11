@@ -11,6 +11,13 @@
   min-height: 300px;
 }
 
+.card-icon{
+  font-size: 40px;
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+}
+
 .centering{
   top: 40%;
   transform: translateY(-50%);
@@ -28,24 +35,28 @@
 }
 
 .show-tab.ng-hide-add {
+  opacity: 1;
   transform: translateY(-100%) !important;
   display: block !important;
   transition: all 1s;
 }
 
 .show-tab.ng-hide-add-active {
+  opacity: 0;
   transform: translateY(0%) !important;
   display: block !important;
   transition: all 1s;
 }
 
 .show-tab.ng-hide-remove {
+  opacity: 0;
   transform: translateY(0%) !important;
   display: block !important;
   transition: all 1s;
 }
 
 .show-tab.ng-hide-remove-active {
+  opacity: 1;
   transform: translateY(-100%) !important;
   display: block !important;
   transition: all 1s;
