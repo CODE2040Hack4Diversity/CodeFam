@@ -10,15 +10,8 @@
     <link href="lib/materialize/css/materialize.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 
-
-
     <!-- ionic/angularjs js -->
     <script src="lib/ionic/js/ionic.bundle.js"></script>
-    <script src="lib/ionic-material/dist/ionic.material.min.js"></script>
-
-
-    <script src="lib/openfb/openfb.js"></script>
-    <script src="lib/openfb/ngOpenFb.js"></script>
 
     <!-- cordova script (this will be a 404 during development) -->
     <script src="lib/ngCordova/dist/ng-cordova.min.js"></script>
@@ -27,11 +20,40 @@
     <!-- your app's js -->
     <script src="app/app.js"></script>
     <script src="app/controllers/users.js"></script>
-    <script src="app/controllers/offers.js"></script>
+    <script src="app/controllers/main.js"></script>
     <script src="app/services/cache.js"></script>
     <script src="app/services/server.js"></script>
+    <script src="lib/materialize/js/materialize.min.js"></script>
   </head>
-  <body ng-app="brainstorm" class="platform-ios platform-cordova platform-webview">
-    <ion-nav-view animation="slide-left-right"></ion-nav-view>
+  <body class="login platform-ios platform-cordova platform-webview" ng-app="codefam" ng-controller="LoginController">
+    <ion-content>
+        <h1 class="title">CodeFam</h1>
+        <!-- <i id="title" class="icon ion-infinity"></i> -->
+        <!-- <div>
+            <span class="iconic" data-glyph="infinity" title="infinity" aria-hidden="true"></span>
+        </div> -->
+        <ion-slide-box>
+            <ion-slide pager-click="navSlide(index)">
+                <div class="slideOne">
+                    <h5>Paired Programming</h5><i class="icon ion-network"></i>
+                    <p>Etiam ac ultricies ex, ut ullamcorper odio. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla rhoncus aliquet facilisis. Aenean semper tortor non nulla facilisis placerat. Pellentesque placerat eu odio at maximus. Duis ultrices, sem at dignissim feugiat, lacus sapien euismod lectus, id mollis felis neque eu massa. Cras nec nisi nec leo tincidunt accumsan. Aliquam a tortor purus. Aliquam erat volutpat. Aenean dapibus sed velit et iaculis. Phasellus nec metus nec nulla convallis ullamcorper. Cras cursus orci quis urna tincidunt fringilla. Sed pharetra augue sed odio ultrices faucibus.</p>
+                </div>
+            </ion-slide>
+            <ion-slide>
+                <div class="slideTwo">
+                    <h5>Mentorship</h5><i class="icon ion-person"></i>
+                    <p>Etiam ac ultricies ex, ut ullamcorper odio. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla rhoncus aliquet facilisis. Aenean semper tortor non nulla facilisis placerat. Pellentesque placerat eu odio at maximus. Duis ultrices, sem at dignissim feugiat, lacus sapien euismod lectus, id mollis felis neque eu massa. Cras nec nisi nec leo tincidunt accumsan. Aliquam a tortor purus. Aliquam erat volutpat. Aenean dapibus sed velit et iaculis. Phasellus nec metus nec nulla convallis ullamcorper. Cras cursus orci quis urna tincidunt fringilla. Sed pharetra augue sed odio ultrices faucibus.</p>
+                </div>
+            </ion-slide>
+            <ion-slide>
+                <div class="slideThree">
+                    <h5>Shadowing</h5><i class="icon ion-person-stalker"></i>
+                    <p>Etiam ac ultricies ex, ut ullamcorper odio. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla rhoncus aliquet facilisis. Aenean semper tortor non nulla facilisis placerat. Pellentesque placerat eu odio at maximus. Duis ultrices, sem at dignissim feugiat, lacus sapien euismod lectus, id mollis felis neque eu massa. Cras nec nisi nec leo tincidunt accumsan. Aliquam a tortor purus. Aliquam erat volutpat. Aenean dapibus sed velit et iaculis. Phasellus nec metus nec nulla convallis ullamcorper. Cras cursus orci quis urna tincidunt fringilla. Sed pharetra augue sed odio ultrices faucibus.<p>
+                </div>
+            </ion-slide>
+        </ion-slide-box>
+    </ion-content>
+    <script type="in/Login"></script>
+    <button class="button icon ion-social-linkedin-outline" id="linkedin"></button>
   </body>
 </html>

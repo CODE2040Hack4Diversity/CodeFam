@@ -1,0 +1,32 @@
+.login{
+	background-color: #1e88e5;
+	font-weight: 300;
+	color: #FFFFFF;
+}
+
+.title{
+	width:100%;
+	padding-top: 70px;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.slider{
+	height: 50%;
+	text-align: center;
+	width:100%;
+	padding-top: 30px;
+	font-size: 1.2em;
+}
+
+h5{
+	color: #FFFFFF;
+}
+
+#linkedin{
+	position: absolute;
+	width: 50%;
+  	bottom: 20px;
+	left: 50%;
+	transform: translateX(-50%);
+}

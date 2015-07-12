@@ -64,3 +64,9 @@ angular.module('codefam', ['ionic', "ngCordova", "ngAnimate", "codefam.usercontr
   
   $urlRouterProvider.otherwise('/');
 })
+
+.controller('LoginController', function($scope, $ionicSlideBoxDelegate) {
+  $scope.navSlide = function(index) {
+    $ionicSlideBoxDelegate.slide(index, 500);
+  }
+})

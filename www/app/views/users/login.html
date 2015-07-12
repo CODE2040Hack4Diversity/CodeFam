@@ -1,12 +1,28 @@
 <ion-view view-title="Login" align-title="left">
-  <ion-content class="" style="background-size: cover;">
-    <div class="hero flat">
-      <div class="content">
-        <h2 class="login-title">{Name}</h2>
-      </div>
-    </div>
-    <div class="transparent">
-      <button class="button button-outline button-light icon-left ion-social-facebook waves-effect waves-button waves-light centered" style="width:40%" ng-click="fbLogin()">Entrar</button>
-    </div>
+  <ion-content class="login" style="background-size: cover;">
+    <ion-content ng-controller="LoginController">
+        <h1 class="title">CodeFam</h1>
+        <ion-slide-box pager-click="navSlide(index)" auto-play="true" does-continue="true">
+            <ion-slide>
+                <div class="slideOne">
+                    <h5>Pair Programming</h5><i class="icon ion-network"></i>
+                    <p>Connect with another programmer who shares similar technical passions to pair program. Two programmers work as a pair together on one computer. One, the driver, writes code while the other, the observer, pointer or navigator,reviews each line of code as it is typed in. The two programmers switch roles frequently. While reviewing, the observer also considers the "strategic" direction of the work, coming up with ideas for improvements and likely future problems to address.</p>
+                </div>
+            </ion-slide>
+            <ion-slide>
+                <div class="slideTwo">
+                    <h5>Mentorship</h5><i class="icon ion-person"></i>
+                    <p>Connect with someone who you want to share your knowledge and experience with or connect with someone who you want to lead you in the right direction professionally and personally. The mentor may be older or younger, but can offer a certain area of expertise.</p>
+                </div>
+            </ion-slide>
+            <ion-slide>
+                <div class="slideThree">
+                    <h5>Shadowing</h5><i class="icon ion-person-stalker"></i>
+                    <p>Find individuals willing to be shadowed and those willing to shadow, a way for individuals to get on-the-job learning, career development, and leadership development. Follow an employee who might have a different job in hand, might have something to teach, or can help the person shadowing him or her to learn new aspects related to the job, organization, certain behaviors or competencies. <p>
+                </div>
+            </ion-slide>
+        </ion-slide-box>
+        <button class="button button-outline button-light" id="linkedin">Linkedin</button>
+    </ion-content>
   </ion-content>
 </ion-view>
