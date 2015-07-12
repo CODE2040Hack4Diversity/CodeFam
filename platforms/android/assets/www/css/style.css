@@ -1,21 +1,12 @@
-.light-text{
+.nav-bar-title{
   font-weight: 300 !important;
 }
-
+.title{
+  font-weight: 300 !important;
+}
 .margin{
   margin-left: 20px;
   margin-right: 20px;
-}
-
-.person-card{
-  min-height: 300px;
-}
-
-.card-icon{
-  font-size: 40px;
-  position: absolute;
-  bottom: 10px;
-  right: 20px;
 }
 
 .centering{
@@ -72,4 +63,46 @@
   -webkit-transform: translateY(-100%) !important;
   display: block !important;
   transition: all 1s;
+}
+
+.person-card{
+  min-height: 500px;
+  transition: all 0.5s ease;
+  transform: translate(0%, -45%) !important;
+  -ms-transform: translate(0%, -45%) !important;
+  -webkit-transform: translate(0%, -45%) !important;
+}
+
+.person-card.ng-hide-add-active {
+  opacity: 0;
+  transform: translate(-100%, -45%) !important;
+  -ms-transform: translate(-100%, -45%) !important;
+  -webkit-transform: translate(-100%, -45%) !important;
+  display: block !important;
+  transition: all 0.5s;
+}
+
+.person-card.ng-hide-remove {
+  opacity: 1;
+  transform: translate(110%, -45%) !important;
+  -ms-transform: translate(110%, -45%) !important;
+  -webkit-transform: translate(110%, -45%) !important;
+  transition: all 0.3s;
+}
+
+
+.person-card.ng-hide-remove-active {
+  opacity: 1;
+  transform: translate(110%, -45%) !important;
+  -ms-transform: translate(110%, -45%) !important;
+  -webkit-transform: translate(110%, -45%) !important;
+  transition: all 0.3s;
+}
+
+
+.card-icon{
+  font-size: 40px;
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
 }

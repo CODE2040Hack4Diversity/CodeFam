@@ -66,37 +66,37 @@
 }
 
 .person-card{
-  min-height: 300px;
+  min-height: 400px;
   transition: all 0.5s ease;
-  transform: translate(0%, -50%) !important;
-  -ms-transform: translate(0%, -50%) !important;
-  -webkit-transform: translate(0%, -50%) !important;
+  transform: translate(0%, -45%) !important;
+  -ms-transform: translate(0%, -45%) !important;
+  -webkit-transform: translate(0%, -45%) !important;
 }
 
 .person-card.ng-hide-add-active {
   opacity: 0;
-  transform: translate(-100%, -50%) !important;
-  -ms-transform: translate(-100%, -50%) !important;
-  -webkit-transform: translate(-100%, -50%) !important;
+  transform: translate(-100%, -45%) !important;
+  -ms-transform: translate(-100%, -45%) !important;
+  -webkit-transform: translate(-100%, -45%) !important;
   display: block !important;
   transition: all 0.5s;
 }
 
 .person-card.ng-hide-remove {
   opacity: 1;
-  transform: translate(110%, -50%) !important;
-  -ms-transform: translate(110%, -50%) !important;
-  -webkit-transform: translate(110%, -50%) !important;
-  transition: all 0.3s;
+  transform: translate(110%, -45%) !important;
+  -ms-transform: translate(110%, -45%) !important;
+  -webkit-transform: translate(110%, -45%) !important;
+  transition: all 0.1s;
 }
 
 
 .person-card.ng-hide-remove-active {
   opacity: 1;
-  transform: translate(110%, -50%) !important;
-  -ms-transform: translate(110%, -50%) !important;
-  -webkit-transform: translate(110%, -50%) !important;
-  transition: all 0.3s;
+  transform: translate(110%, -45%) !important;
+  -ms-transform: translate(110%, -45%) !important;
+  -webkit-transform: translate(110%, -45%) !important;
+  transition: all 0.1s;
 }
 
 
@@ -105,4 +105,23 @@
   position: absolute;
   bottom: 10px;
   right: 20px;
+}
+
+.like-button{
+  font-size: 40px;
+  position: absolute;
+  bottom: 10px;
+  right: 60px;
+}
+
+.sub-menu{
+  transition: all 2s;
+}
+
+.sub-menu.extend{
+  height: 100%;
+}
+
+.sub-menu.extend-add-active{
+  height: 100%;
 }
