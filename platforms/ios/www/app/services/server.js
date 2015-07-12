@@ -1,6 +1,6 @@
 (function() {
 	'use strict';
-	var app = angular.module('coins.api', []);
+	var app = angular.module('codefam.api', []);
 
 	app.config(['$httpProvider', function($httpProvider) {
       $httpProvider.defaults.useXDomain = true;
@@ -8,7 +8,7 @@
     }
 	]);
 
-  app.factory('coinsApi', function($http){
+  app.factory('codeFamApi', function($http){
 		return {
 			post_user_data: function(user){
 				return true

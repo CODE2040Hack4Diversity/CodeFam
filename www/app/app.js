@@ -5,7 +5,7 @@
 // the 2nd parameter is an array of 'requires'
 angular.module('codefam', ['ionic', "ngCordova", "ngAnimate", "codefam.usercontroller", "codefam.maincontroller"])
 
-.run(function($ionicPlatform, $cordovaNetwork, $ionicPopup, $cordovaGoogleAnalytics) {
+.run(function($ionicPlatform, $cordovaNetwork, $ionicPopup) {
   $ionicPlatform.ready(function() {
     // if(window.cordova && window.cordova.plugins.Keyboard) {
     //   cordova.plugins.Keyboard.hideKeyboardAccessoryBar(true);
@@ -58,7 +58,13 @@ angular.module('codefam', ['ionic', "ngCordova", "ngAnimate", "codefam.usercontr
     url: "/",
     templateUrl: "app/views/users/login.html",
     controller: "UserCtrlLogin",
+  })
+
+  .state('linkedin', {
+    url: "/login",
+    templateUrl: "app/views/users/linkedin.html",
+    controller: "UserCtrlLinkedin",
   });
   
-  $urlRouterProvider.otherwise('/home/index');
+  $urlRouterProvider.otherwise('/');
 })

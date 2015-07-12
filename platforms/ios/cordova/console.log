@@ -58,3 +58,93 @@
 2015-07-01 14:07:21.050 Coins[29171:3310441] Unlimited access to network resources
 2015-07-01 14:07:21.199 Coins[29171:3310441] Resetting plugins due to page load.
 2015-07-01 14:07:21.382 Coins[29171:3310441] Finished load of: file:///Users/glopes/Library/Developer/CoreSimulator/Devices/7ABF2DCB-A088-41A0-9E3D-7D2A84616BD8/data/Containers/Bundle/Application/D991E5BD-BB2A-43CC-9902-F2D215556B7B/Coins.app/www/index.html#/login
+2015-07-11 20:23:32.853 CodeFam[39407:3462324] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/glopes/Library/Developer/CoreSimulator/Devices/7ABF2DCB-A088-41A0-9E3D-7D2A84616BD8/data/Containers/Data/Application/FC1734BA-90F4-4383-9AF0-C8D8A11C99FA/Library/Cookies/Cookies.binarycookies
+2015-07-11 20:23:33.099 CodeFam[39407:3462324] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-11 20:23:33.100 CodeFam[39407:3462324] Multi-tasking -> Device: YES, App: YES
+2015-07-11 20:23:33.113 CodeFam[39407:3462324] Unlimited access to network resources
+2015-07-11 20:23:33.858 CodeFam[39407:3462324] Resetting plugins due to page load.
+2015-07-11 20:23:34.110 CodeFam[39407:3462324] Finished load of: file:///Users/glopes/Library/Developer/CoreSimulator/Devices/7ABF2DCB-A088-41A0-9E3D-7D2A84616BD8/data/Containers/Bundle/Application/DDCC1A30-2582-47BC-9723-8E21F7271809/CodeFam.app/www/index.html#/
+2015-07-11 20:26:16.837 CodeFam[39813:3464682] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/glopes/Library/Developer/CoreSimulator/Devices/7ABF2DCB-A088-41A0-9E3D-7D2A84616BD8/data/Containers/Data/Application/A2D90BAA-8666-4BA6-8AA3-2315A25FA27F/Library/Cookies/Cookies.binarycookies
+2015-07-11 20:26:16.921 CodeFam[39813:3464682] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-11 20:26:16.921 CodeFam[39813:3464682] Multi-tasking -> Device: YES, App: YES
+2015-07-11 20:26:16.923 CodeFam[39813:3464682] Unlimited access to network resources
+2015-07-11 20:26:17.043 CodeFam[39813:3464682] Resetting plugins due to page load.
+2015-07-11 20:26:17.210 CodeFam[39813:3464682] Finished load of: file:///Users/glopes/Library/Developer/CoreSimulator/Devices/7ABF2DCB-A088-41A0-9E3D-7D2A84616BD8/data/Containers/Bundle/Application/D742E7DB-18A4-4827-87B5-AFD042F8F02A/CodeFam.app/www/index.html#/
+2015-07-11 20:28:41.463 CodeFam[39813:3466435] Terminating since there is no system app.
+2015-07-11 20:28:49.797 CodeFam[40236:3467507] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/glopes/Library/Developer/CoreSimulator/Devices/7ABF2DCB-A088-41A0-9E3D-7D2A84616BD8/data/Containers/Data/Application/79F9AD2F-A54E-4A19-B5FE-0E51FC1484A1/Library/Cookies/Cookies.binarycookies
+2015-07-11 20:28:49.919 CodeFam[40236:3467507] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-11 20:28:49.919 CodeFam[40236:3467507] Multi-tasking -> Device: YES, App: YES
+2015-07-11 20:28:49.921 CodeFam[40236:3467507] Unlimited access to network resources
+2015-07-11 20:28:50.043 CodeFam[40236:3467507] Resetting plugins due to page load.
+2015-07-11 20:28:50.292 CodeFam[40236:3467507] Finished load of: file:///Users/glopes/Library/Developer/CoreSimulator/Devices/7ABF2DCB-A088-41A0-9E3D-7D2A84616BD8/data/Containers/Bundle/Application/1A5BCEBA-E26D-41B1-BE89-05EB2EB4E22C/CodeFam.app/www/index.html#/
+2015-07-11 20:30:01.341 CodeFam[40635:3469225] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/glopes/Library/Developer/CoreSimulator/Devices/7ABF2DCB-A088-41A0-9E3D-7D2A84616BD8/data/Containers/Data/Application/3FEAFF26-921B-4E59-8720-2C72CD2ED482/Library/Cookies/Cookies.binarycookies
+2015-07-11 20:30:01.429 CodeFam[40635:3469225] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-11 20:30:01.429 CodeFam[40635:3469225] Multi-tasking -> Device: YES, App: YES
+2015-07-11 20:30:01.431 CodeFam[40635:3469225] Unlimited access to network resources
+2015-07-11 20:30:01.559 CodeFam[40635:3469225] Resetting plugins due to page load.
+2015-07-11 20:30:01.750 CodeFam[40635:3469225] Finished load of: file:///Users/glopes/Library/Developer/CoreSimulator/Devices/7ABF2DCB-A088-41A0-9E3D-7D2A84616BD8/data/Containers/Bundle/Application/799FF78C-8B24-47E1-9DE9-4510D1DB0382/CodeFam.app/www/index.html#/
+2015-07-11 20:33:51.934 CodeFam[41059:3472685] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/glopes/Library/Developer/CoreSimulator/Devices/7ABF2DCB-A088-41A0-9E3D-7D2A84616BD8/data/Containers/Data/Application/57250928-C7CC-4B79-AE48-7341DD1CC77B/Library/Cookies/Cookies.binarycookies
+2015-07-11 20:33:52.057 CodeFam[41059:3472685] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-11 20:33:52.057 CodeFam[41059:3472685] Multi-tasking -> Device: YES, App: YES
+2015-07-11 20:33:52.058 CodeFam[41059:3472685] Unlimited access to network resources
+2015-07-11 20:33:52.203 CodeFam[41059:3472685] Resetting plugins due to page load.
+2015-07-11 20:33:52.365 CodeFam[41059:3472685] Finished load of: file:///Users/glopes/Library/Developer/CoreSimulator/Devices/7ABF2DCB-A088-41A0-9E3D-7D2A84616BD8/data/Containers/Bundle/Application/86074C0A-3E10-402B-A5F5-00E17EC02E9D/CodeFam.app/www/index.html#/
+2015-07-11 20:34:16.174 CodeFam[41059:3473123] Communications error: <OS_xpc_error: <error: 0x347d5f4> { count = 1, contents =
+	"XPCErrorDescription" => <string: 0x347d83c> { length = 22, contents = "Connection interrupted" }
+}>
+2015-07-11 20:34:16.181 CodeFam[41059:3473165] Terminating since there is no system app.
+2015-07-11 20:34:23.356 CodeFam[41458:3474110] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/glopes/Library/Developer/CoreSimulator/Devices/7ABF2DCB-A088-41A0-9E3D-7D2A84616BD8/data/Containers/Data/Application/F634123D-1F05-496B-AA88-BD178BA0C930/Library/Cookies/Cookies.binarycookies
+2015-07-11 20:34:23.469 CodeFam[41458:3474110] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-11 20:34:23.470 CodeFam[41458:3474110] Multi-tasking -> Device: YES, App: YES
+2015-07-11 20:34:23.472 CodeFam[41458:3474110] Unlimited access to network resources
+2015-07-11 20:34:23.591 CodeFam[41458:3474110] Resetting plugins due to page load.
+2015-07-11 20:34:23.812 CodeFam[41458:3474110] Finished load of: file:///Users/glopes/Library/Developer/CoreSimulator/Devices/7ABF2DCB-A088-41A0-9E3D-7D2A84616BD8/data/Containers/Bundle/Application/A753351E-C8CF-4FD7-9039-E25E514364CD/CodeFam.app/www/index.html#/
+2015-07-11 20:36:57.491 CodeFam[41875:3476374] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/glopes/Library/Developer/CoreSimulator/Devices/7ABF2DCB-A088-41A0-9E3D-7D2A84616BD8/data/Containers/Data/Application/427122A8-23A4-45A8-90D6-1B5E5C165225/Library/Cookies/Cookies.binarycookies
+2015-07-11 20:36:57.716 CodeFam[41875:3476374] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-11 20:36:57.716 CodeFam[41875:3476374] Multi-tasking -> Device: YES, App: YES
+2015-07-11 20:36:57.726 CodeFam[41875:3476374] Unlimited access to network resources
+2015-07-11 20:36:58.129 CodeFam[41875:3476374] Resetting plugins due to page load.
+2015-07-11 20:36:58.361 CodeFam[41875:3476374] Finished load of: file:///Users/glopes/Library/Developer/CoreSimulator/Devices/7ABF2DCB-A088-41A0-9E3D-7D2A84616BD8/data/Containers/Bundle/Application/C6E4A610-C8D7-4706-8603-C10767D2CD65/CodeFam.app/www/index.html#/
+2015-07-11 20:37:08.978 CodeFam[41875:3476464] Terminating since there is no system app.
+2015-07-11 20:38:43.679 CodeFam[42363:3479362] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/glopes/Library/Developer/CoreSimulator/Devices/7ABF2DCB-A088-41A0-9E3D-7D2A84616BD8/data/Containers/Data/Application/3B9D221D-DC8D-4009-B53C-E68AF8354093/Library/Cookies/Cookies.binarycookies
+2015-07-11 20:38:43.904 CodeFam[42363:3479362] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-11 20:38:43.904 CodeFam[42363:3479362] Multi-tasking -> Device: YES, App: YES
+2015-07-11 20:38:43.913 CodeFam[42363:3479362] Unlimited access to network resources
+2015-07-11 20:38:44.301 CodeFam[42363:3479362] Resetting plugins due to page load.
+2015-07-11 20:38:44.511 CodeFam[42363:3479362] Finished load of: file:///Users/glopes/Library/Developer/CoreSimulator/Devices/7ABF2DCB-A088-41A0-9E3D-7D2A84616BD8/data/Containers/Bundle/Application/FED1761C-88AE-400B-A377-DFA613273C42/CodeFam.app/www/index.html#/
+2015-07-11 20:39:37.401 CodeFam[42757:3480781] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/glopes/Library/Developer/CoreSimulator/Devices/7ABF2DCB-A088-41A0-9E3D-7D2A84616BD8/data/Containers/Data/Application/AE587476-37F2-4268-A8AE-16C1EDE22EA8/Library/Cookies/Cookies.binarycookies
+2015-07-11 20:39:37.534 CodeFam[42757:3480781] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-11 20:39:37.534 CodeFam[42757:3480781] Multi-tasking -> Device: YES, App: YES
+2015-07-11 20:39:37.536 CodeFam[42757:3480781] Unlimited access to network resources
+2015-07-11 20:39:37.679 CodeFam[42757:3480781] Resetting plugins due to page load.
+2015-07-11 20:39:37.877 CodeFam[42757:3480781] Finished load of: file:///Users/glopes/Library/Developer/CoreSimulator/Devices/7ABF2DCB-A088-41A0-9E3D-7D2A84616BD8/data/Containers/Bundle/Application/6D2D00D3-EF81-4119-B66A-24D91B5C2E4F/CodeFam.app/www/index.html#/
+2015-07-11 20:40:43.418 CodeFam[43161:3482567] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/glopes/Library/Developer/CoreSimulator/Devices/7ABF2DCB-A088-41A0-9E3D-7D2A84616BD8/data/Containers/Data/Application/75199396-7CB7-4C85-A1E5-9946A8791ABE/Library/Cookies/Cookies.binarycookies
+2015-07-11 20:40:43.545 CodeFam[43161:3482567] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-11 20:40:43.545 CodeFam[43161:3482567] Multi-tasking -> Device: YES, App: YES
+2015-07-11 20:40:43.547 CodeFam[43161:3482567] Unlimited access to network resources
+2015-07-11 20:40:43.674 CodeFam[43161:3482567] Resetting plugins due to page load.
+2015-07-11 20:40:43.839 CodeFam[43161:3482567] Finished load of: file:///Users/glopes/Library/Developer/CoreSimulator/Devices/7ABF2DCB-A088-41A0-9E3D-7D2A84616BD8/data/Containers/Bundle/Application/985435B2-D44F-4D76-9A03-F13363D4F21D/CodeFam.app/www/index.html#/
+2015-07-11 20:41:17.101 CodeFam[43556:3483809] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/glopes/Library/Developer/CoreSimulator/Devices/7ABF2DCB-A088-41A0-9E3D-7D2A84616BD8/data/Containers/Data/Application/9BC5326E-B6F7-41B8-8228-BAB32BD83D0A/Library/Cookies/Cookies.binarycookies
+2015-07-11 20:41:17.228 CodeFam[43556:3483809] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-11 20:41:17.229 CodeFam[43556:3483809] Multi-tasking -> Device: YES, App: YES
+2015-07-11 20:41:17.230 CodeFam[43556:3483809] Unlimited access to network resources
+2015-07-11 20:41:17.361 CodeFam[43556:3483809] Resetting plugins due to page load.
+2015-07-11 20:41:17.538 CodeFam[43556:3483809] Finished load of: file:///Users/glopes/Library/Developer/CoreSimulator/Devices/7ABF2DCB-A088-41A0-9E3D-7D2A84616BD8/data/Containers/Bundle/Application/F7048136-44CC-4B63-8829-9060BD3DD0B8/CodeFam.app/www/index.html#/
+2015-07-11 20:42:09.439 CodeFam[43949:3485041] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/glopes/Library/Developer/CoreSimulator/Devices/7ABF2DCB-A088-41A0-9E3D-7D2A84616BD8/data/Containers/Data/Application/EBF50763-8F92-401F-9545-248389D48F22/Library/Cookies/Cookies.binarycookies
+2015-07-11 20:42:09.548 CodeFam[43949:3485041] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-11 20:42:09.549 CodeFam[43949:3485041] Multi-tasking -> Device: YES, App: YES
+2015-07-11 20:42:09.550 CodeFam[43949:3485041] Unlimited access to network resources
+2015-07-11 20:42:09.688 CodeFam[43949:3485041] Resetting plugins due to page load.
+2015-07-11 20:42:09.861 CodeFam[43949:3485041] Finished load of: file:///Users/glopes/Library/Developer/CoreSimulator/Devices/7ABF2DCB-A088-41A0-9E3D-7D2A84616BD8/data/Containers/Bundle/Application/137793AF-24A5-4F12-A5BE-9B894D21659F/CodeFam.app/www/index.html#/
+2015-07-11 22:01:16.262 CodeFam[45042:3521749] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/glopes/Library/Developer/CoreSimulator/Devices/7ABF2DCB-A088-41A0-9E3D-7D2A84616BD8/data/Containers/Data/Application/08356D4A-EAF5-467D-ADE0-9D7D868DC4CB/Library/Cookies/Cookies.binarycookies
+2015-07-11 22:01:16.508 CodeFam[45042:3521749] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-11 22:01:16.509 CodeFam[45042:3521749] Multi-tasking -> Device: YES, App: YES
+2015-07-11 22:01:16.526 CodeFam[45042:3521749] Unlimited access to network resources
+2015-07-11 22:01:17.052 CodeFam[45042:3521749] Resetting plugins due to page load.
+2015-07-11 22:01:17.410 CodeFam[45042:3521749] Finished load of: file:///Users/glopes/Library/Developer/CoreSimulator/Devices/7ABF2DCB-A088-41A0-9E3D-7D2A84616BD8/data/Containers/Bundle/Application/1D02E7EF-C045-48D2-B376-54CF0ECFDDEA/CodeFam.app/www/index.html#/
+2015-07-12 00:47:20.368 CodeFam[67686:3593465] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/glopes/Library/Developer/CoreSimulator/Devices/7ABF2DCB-A088-41A0-9E3D-7D2A84616BD8/data/Containers/Data/Application/21FAD836-3F8E-4A69-A307-53E675F0F77C/Library/Cookies/Cookies.binarycookies
+2015-07-12 00:47:20.621 CodeFam[67686:3593465] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-12 00:47:20.621 CodeFam[67686:3593465] Multi-tasking -> Device: YES, App: YES
+2015-07-12 00:47:20.639 CodeFam[67686:3593465] Unlimited access to network resources
+2015-07-12 00:47:21.165 CodeFam[67686:3593465] Resetting plugins due to page load.
+2015-07-12 00:47:21.715 CodeFam[67686:3593465] Finished load of: file:///Users/glopes/Library/Developer/CoreSimulator/Devices/7ABF2DCB-A088-41A0-9E3D-7D2A84616BD8/data/Containers/Bundle/Application/DEBA30CE-A69A-408F-B2FF-B9B6E6CE6B2D/CodeFam.app/www/index.html#/

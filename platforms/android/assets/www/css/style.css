@@ -1,9 +1,65 @@
+@font-face {
+  font-family: 'Bad Script';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/BadScript.woff2) format('woff2');
+}
+
+.login{
+  background-color: #1e88e5;
+  font-weight: 300;
+  color: #FFFFFF;
+}
+
+i.ion-record {
+  color:white;
+}
+
+#login-title{
+  width:100%;
+  padding-top: 70px;
+  color: #FFFFFF;
+  text-align: center;
+  font-family: 'Bad Script', Roboto, GillSans, Calibri, Trebuchet, sans-serif !important;
+  font-size: 70px;
+  font-weight: 100 !important;
+}
+
+.slider{
+  height: 50%;
+  text-align: center;
+  width:100%;
+  padding-top: 30px;
+  font-size: 1.2em;
+}
+
+h5{
+  color: #FFFFFF;
+}
+
+#linkedin{
+  position: absolute;
+  width: 50%;
+  bottom: 30%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  -ms-transform: translate(-50%, 50%);;
+  -webkit-transform: translate(-50%, 50%);;
+  -moz-transform: translate(-50%, 50%); !important;
+}
+
 .nav-bar-title{
   font-weight: 300 !important;
 }
 .title{
   font-weight: 300 !important;
 }
+
+.scroll {
+  height: 100%;
+}
+
+
 .margin{
   margin-left: 20px;
   margin-right: 20px;
@@ -17,11 +73,14 @@
   -moz-transform: translateY(-50%)  !important;
 }
 
-.sub-menu{ 
-  position: absolute;
-  bottom: 5px;
-  top: auto;
+.centering-x{
+  left: 50%;
+  -ms-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  -moz-transform: translateX(-50%)  !important;
 }
+
 
 .show-tab {
   transform: translateY(-100%) !important;
@@ -125,6 +184,9 @@
 }
 
 .sub-menu{
+  position: absolute;
+  bottom: 5px;
+  top: auto;
   transition: all 2s;
 }
 

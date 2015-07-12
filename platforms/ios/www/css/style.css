@@ -1,102 +1,213 @@
-.title {
-	font-weight: 200 !important;
+@font-face {
+  font-family: 'Bad Script';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/BadScript.woff2) format('woff2');
 }
 
-.padding{
-  margin-right: 10px;
-  margin-left: 10px;
+.login{
+  background-color: #1e88e5;
+  font-weight: 300;
+  color: #FFFFFF;
 }
 
-.side-menu-header {
-	font-weight: 200;
-	text-align: center;
+i.ion-record {
+  color:white;
 }
 
-.login-title {
-  	font-weight: 100 !important;
-  	font-size: 60px;
-  	color: #fff;
+#login-title{
+  width:100%;
+  padding-top: 70px;
+  color: #FFFFFF;
+  text-align: center;
+  font-family: 'Bad Script', Roboto, GillSans, Calibri, Trebuchet, sans-serif !important;
+  font-size: 70px;
+  font-weight: 100 !important;
 }
 
-.gray-body{
-  background: #eff3f8;
+.slider{
+  height: 50%;
+  text-align: center;
+  width:100%;
+  padding-top: 30px;
+  font-size: 1.2em;
 }
 
-.right {
-  text-align: right;
+h5{
+  color: #FFFFFF;
 }
 
-.space-bot {
-  margin: 5px 5px 5px 5px !important;
-}
-
-.ui-view-container {
-  position: relative;
-}
-
-.centered {
-  position: fixed;
-  top: 50%;
+#linkedin{
+  position: absolute;
+  width: 50%;
+  bottom: 30%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, 50%);
+  -ms-transform: translate(-50%, 50%);;
+  -webkit-transform: translate(-50%, 50%);;
+  -moz-transform: translate(-50%, 50%); !important;
 }
 
-.center-high {
-  position: fixed;
-  top: 25%;
+.nav-bar-title{
+  font-weight: 300 !important;
+}
+.title{
+  font-weight: 300 !important;
+}
+
+.scroll {
+  height: 100%;
+}
+
+
+.margin{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.centering{
+  top: 40%;
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  -moz-transform: translateY(-50%)  !important;
+}
+
+.centering-x{
   left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  -moz-transform: translateX(-50%)  !important;
 }
 
-.divisor{
-  margin-right:2px;
-  margin-left:2px;
-}
-.row + .row {
-  margin-top: -30px;
-  padding-top: 0;
+
+.show-tab {
+  transform: translateY(-100%) !important;
+  -ms-transform: translateY(-100%) !important;
+  -webkit-transform: translateY(-100%) !important;
+  -moz-transform: translateY(-100%)  !important;
+  display: block !important;
 }
 
-.list .item.item-bg-image>img {
+.show-tab.ng-hide-add {
+  opacity: 1;
+  transform: translateY(-100%) !important;
+  -ms-transform: translateY(-100%) !important;
+  -webkit-transform: translateY(-100%) !important;
+  -moz-transform: translateY(-100%)  !important;
+  display: block !important;
+  transition: all 1s;
+}
+
+.show-tab.ng-hide-add-active {
+  opacity: 0;
+  transform: translateY(0%) !important;
+  -ms-transform: translateY(0%) !important;
+  -webkit-transform: translateY(0%) !important;
+  -moz-transform: translateY(0%)  !important;
+  display: block !important;
+  transition: all 1s;
+}
+
+.show-tab.ng-hide-remove {
+  opacity: 0;
+  transform: translateY(0%) !important;
+  -ms-transform: translateY(0%) !important;
+  -webkit-transform: translateY(0%) !important;
+  -moz-transform: translateY(0%)  !important;
+  display: block !important;
+  transition: all 1s;
+}
+
+.show-tab.ng-hide-remove-active {
+  opacity: 1;
+  transform: translateY(-100%) !important;
+  -ms-transform: translateY(-100%) !important;
+  -webkit-transform: translateY(-100%) !important;
+  -moz-transform: translateY(-100%)  !important;
+  display: block !important;
+  transition: all 1s;
+}
+
+.person-card{
+  min-height: 400px;
+  transition: all 0.5s ease;
+  transform: translate(0%, -45%) !important;
+  -ms-transform: translate(0%, -45%) !important;
+  -webkit-transform: translate(0%, -45%) !important;
+  -moz-transform: translate(0%, -45%) !important;
+}
+
+.person-card.ng-hide-add-active {
+  opacity: 0;
+  transform: translate(-100%, -45%) !important;
+  -ms-transform: translate(-100%, -45%) !important;
+  -webkit-transform: translate(-100%, -45%) !important;
+  -moz-transform: translate(-100%, -45%) !important;
+  display: block !important;
+  transition: all 0.5s;
+}
+
+.person-card.ng-hide-remove {
+  opacity: 1;
+  transform: translate(110%, -45%) !important;
+  -ms-transform: translate(110%, -45%) !important;
+  -webkit-transform: translate(110%, -45%) !important;
+  -moz-transform: translate(110%, -45%) !important;
+  transition: all 0.1s;
+}
+
+
+.person-card.ng-hide-remove-active {
+  opacity: 1;
+  transform: translate(110%, -45%) !important;
+  -ms-transform: translate(110%, -45%) !important;
+  -webkit-transform: translate(110%, -45%) !important;
+  -moz-transform: translate(110%, -45%) !important;
+  transition: all 0.1s;
+}
+
+
+.card-icon{
+  font-size: 40px;
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+}
+
+.like-button{
+  font-size: 40px;
+  position: absolute;
+  bottom: 10px;
+  right: 60px;
+}
+
+.sub-menu{
+  position: absolute;
+  bottom: 5px;
+  top: auto;
+  transition: all 2s;
+}
+
+.sub-menu.extend{
+  height: 100%;
+}
+
+.sub-menu.extend-add-active{
+  height: 100%;
+}
+
+.fadein {
+  opacity: 1;
+  height: 100%;
+  transition: all 0.5s;
+}
+
+.fadein.ng-hide-add-active {
   opacity: 1;
 }
 
-.border{
-  border-top: solid 2px #ccc;
-}
-
-.bar .button-stable, .bar .button-stable.activated, .bar .button-stable:active, .bar .button-stable:hover, .bar-stable, .bar-stable.activated, .bar-stable:active, .bar-stable:hover, .button-bar-stable, .button-bar-stable.activated, .button-bar-stable:active, .button-bar-stable:hover, .button-stable, .button-stable.activated, .button-stable:active, .button-stable:hover, .header-stable, .header-stable.activated, .header-stable:active, .header-stable:hover, .stable-bg, .stable-bg.activated, .stable-bg:active, .stable-bg:hover, .stable-border, .stable-border.activated, .stable-border:active, .stable-border:hover {
-  background-color: #fff;
-  /* color: #fff; */
-}
-
-.bar-in-card{
-  margin-left: 10px;
-  margin-right: 10px;
-  width: initial;
-}
-
-.platform-android .bar .title {
-  font-size: 19px;
-  line-height: 44px;
-  font-weight: 400 !important;
-}
-
-.search-block{
-  border-radius: 4px;
-  border: white;
-  padding-right: 30px;
-  margin-bottom: 0px;
-  margin-top: 10px;
-}
-
-input[type=text]:focus:not([readonly]), input[type=password]:focus:not([readonly]), input[type=email]:focus:not([readonly]), input[type=url]:focus:not([readonly]), input[type=time]:focus:not([readonly]), input[type=date]:focus:not([readonly]), input[type=datetime-local]:focus:not([readonly]), input[type=tel]:focus:not([readonly]), input[type=number]:focus:not([readonly]), input[type=search]:focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
-  border-bottom: 1px solid #673AB8;
-  box-shadow: 0 1px 0 0 #673AB8;
-}
-
+.fadein.ng-hide-remove-active {
+  opacity: 1;
 }

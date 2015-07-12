@@ -1,7 +1,7 @@
 {
-  "name": "codefam",
+  "name": "FAM",
   "version": "1.0.0",
-  "description": "Codefam",
+  "description": "Code2040 Hack4Diversity Team 5",
   "dependencies": {
     "gulp": "^3.5.6",
     "gulp-concat": "^2.2.0",
@@ -21,7 +21,8 @@
     "https://github.com/danwilson/google-analytics-plugin.git",
     "cordova-plugin-whitelist",
     "cordova-plugin-crosswalk-webview",
-    "org.apache.cordova.inappbrowser"
+    "org.apache.cordova.inappbrowser",
+    "https://git-wip-us.apache.org/repos/asf/cordova-plugin-geolocation.git"
   ],
   "cordovaPlatforms": [
     "ios"
