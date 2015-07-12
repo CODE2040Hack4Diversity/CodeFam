@@ -1,7 +1,7 @@
 (function() {
 	'use strict';
-	var app = angular.module('coins.cache', []);
-  app.factory('coinsCache', function(){
+	var app = angular.module('codefam.cache', []);
+  app.factory('codeFamCache', function(){
 		return {
 			// User Caching
 			set_user: function(user){

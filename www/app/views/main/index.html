@@ -1,4 +1,74 @@
-<ion-view>
-	<ion-content class="has-header gray-body">
+<ion-view class="grey lighten-3">
+	<ion-content class="has-header gray-body" on-swipe-left="get_next()">
+    <div class="card margin person-card centering" ng-repeat="person in persons" ng-show="$index == index">
+      <div class="card-content">
+        <span class="card-title grey-text text-darken-4">{{person.user}}</span>
+        <p>
+          
+          
+        </p>
+      </div>
+      <div class="card-reveal show-tab" ng-hide="clicked">
+        <span class="card-title grey-text text-darken-4">{{person.user}}</span>
+        <br>
+        <p>Here is some more information about this product that is only revealed once clicked on.</p>
+        <div class="divider"></div>
+        <br>
+        <p>
+          Skills:
+        </p>
+      </div>
+
+      <div class="item tabs tabs-secondary tabs-icon-left" style="position: absolute">
+		    <a class="tab-item waves-effect" on-release="like(person)">
+		      <i class="icon" ng-class="{'ion-ios-star-outline' : !person.liked, 'ion-ios-star' : person.liked}"></i></span>
+		    </a>
+		    <a class="tab-item waves-effect" ng-click="see_more()">
+		      <i class="icon " ng-class="{'ion-ios-plus-outline' : !clicked, 'ion-ios-minus-outline' : clicked}"></i></span>
+		    </a>
+		  </div>
+    </div>
+
+		<div class="bar bar-subheader sub-menu z-depth-4" ng-class="{'extend':filter}" on-swipe-down="close_filter()" style="position: absolute; bottom: 5px; top: auto;">
+		  <h1 class="title light-text" ng-click="see_filter()">Filters</h1>
+
+		  <div class="fadein" ng-show="filter">
+		  	<div style="margin-top: 50px; height: 100%">
+          <div class="tabs">
+            <a class="tab-item" ng-click="set_tab(1)">
+              Skills
+            </a>
+            <a class="tab-item" ng-click="set_tab(2)">
+              Map
+            </a>
+          </div>   
+          <div class="container" id="tab-skills" ng-show="tab == 1">
+
+            <div class="list">
+              <label class="item item-input item-select">
+                <ion-toggle ng-model="ruby" toggle-class="toggle-calm">Ruby</ion-toggle>
+              </label>
+              <label class="item item-input item-select">
+                <ion-toggle ng-model="python" toggle-class="toggle-calm">Python</ion-toggle>
+              </label>
+              <label class="item item-input item-select">
+                <ion-toggle ng-model="c" toggle-class="toggle-calm">C</ion-toggle>
+              </label>
+              <label class="item item-input item-select">
+                <ion-toggle ng-model="csharp" toggle-class="toggle-calm">C#</ion-toggle>
+              </label>
+              <label class="item item-input item-select">
+                <ion-toggle ng-model="javascript" toggle-class="toggle-calm">Javascript</ion-toggle>
+              </label>
+              <label class="item item-input item-select">
+                <ion-toggle ng-model="java" toggle-class="toggle-calm">Java</ion-toggle>
+              </label>
+            </div>
+          </div>
+          <div class="container" id="tab-maps" ng-show="tab == 2" data-tap-disabled="true" style="width: 100%;height: 100%;">
+          </div>
+        </div>
+		  </div>
+		</div>
 	</ion-content>
 </ion-view>

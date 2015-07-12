@@ -1,37 +1,16 @@
 <ion-side-menus enable-menu-with-back-views="true">
   <ion-side-menu-content>
-    <ion-nav-bar class="bar nav-title-slide-ios7 deep-purple" align-title="left">
-      <ion-nav-back-button class="no-text">
-      </ion-nav-back-button>
-      <ion-nav-buttons side="left">
-        <button class="button button-icon button-clear icon ion-navicon" menu-toggle="left"></button>
-      </ion-nav-buttons>
-      <ion-nav-title class="white-text">
-        {Nome}
-      </ion-nav-title>
-    </ion-nav-bar>
-    <ion-nav-view name="content-index" animation="slide-left-right"></ion-nav-view>
+      <ion-nav-bar class="bar-positive nav-title-slide-ios7" align-title="middle">
+          <ion-nav-back-button class="no-text">
+          </ion-nav-back-button>
+          <ion-nav-buttons side="left">
+              <button class="button button-icon button-clear icon ion-ios-chatbubble-outline"><span class="badge" style="top: -33px;right: auto;left:1px;font-weight:400"></span>
+              </button>
+          </ion-nav-buttons>
+          <ion-nav-title>
+            FAM
+          </ion-nav-title>
+      </ion-nav-bar>
+      <ion-nav-view name="content-index"></ion-nav-view>
   </ion-side-menu-content>
-  <ion-side-menu side="left">
-    <header class="bar bar-header bar deep-purple">
-      <h1 class="title white-text">{{user.name}}</h1>
-    </header>
-    <ion-content class="stable-bg has-header">
-      <ion-list>
-        <div class="border"></div>
-        <ion-item nav-clear menu-close onclick="window.location.replace('#/home/ideas');">
-          Timeline
-        </ion-item>
-        <div class="border"></div>
-        <ion-item nav-clear menu-close onclick="window.location.replace('#/home/explore');">
-          Comprovantes
-        </ion-item>
-        <div class="border"></div>
-        <ion-item nav-clear menu-close onclick="window.location.replace('#/logout');">
-          Log Out
-        </ion-item>
-        <div class="border"></div>
-      </ion-list>
-    </ion-content>
-  </ion-side-menu>
 </ion-side-menus>

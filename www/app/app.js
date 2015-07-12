@@ -5,7 +5,7 @@
 // the 2nd parameter is an array of 'requires'
 angular.module('codefam', ['ionic', "ngCordova", "ngAnimate", "codefam.usercontroller", "codefam.maincontroller"])
 
-.run(function($ionicPlatform, $cordovaNetwork, $ionicPopup, $cordovaGoogleAnalytics) {
+.run(function($ionicPlatform, $cordovaNetwork, $ionicPopup) {
   $ionicPlatform.ready(function() {
     // if(window.cordova && window.cordova.plugins.Keyboard) {
     //   cordova.plugins.Keyboard.hideKeyboardAccessoryBar(true);
@@ -13,9 +13,6 @@ angular.module('codefam', ['ionic', "ngCordova", "ngAnimate", "codefam.usercontr
     if(window.StatusBar) {
       StatusBar.styleDefault();
     }
-
-    if(ionic.Platform.isWebView() && $cordovaGoogleAnalytics) {
-    } 
 
     if(window.Connection){
       if($cordovaNetwork.isOffline()) {
@@ -32,7 +29,7 @@ angular.module('codefam', ['ionic', "ngCordova", "ngAnimate", "codefam.usercontr
 })
 
 .config(function($ionicConfigProvider) {
-  if(!ionic.Platform.isIOS())$ionicConfigProvider.scrolling.jsScrolling(false);
+  $ionicConfigProvider.scrolling.jsScrolling(false);
 })
 
 
@@ -51,6 +48,7 @@ angular.module('codefam', ['ionic', "ngCordova", "ngAnimate", "codefam.usercontr
     views: {
       "content-index": {
         templateUrl: "app/views/main/index.html",
+        controller: "MainCtrlIndex",
       }
     }
   })
@@ -60,6 +58,12 @@ angular.module('codefam', ['ionic', "ngCordova", "ngAnimate", "codefam.usercontr
     url: "/",
     templateUrl: "app/views/users/login.html",
     controller: "UserCtrlLogin",
+  })
+
+  .state('linkedin', {
+    url: "/login",
+    templateUrl: "app/views/users/linkedin.html",
+    controller: "UserCtrlLinkedin",
   });
   
   $urlRouterProvider.otherwise('/');

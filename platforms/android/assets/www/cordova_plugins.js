@@ -36,6 +36,7 @@ module.exports.metadata =
     "cordova-plugin-network-information": "1.0.0",
     "cordova-plugin-google-analytics": "0.7.2",
     "org.apache.cordova.inappbrowser": "0.6.0",
+    "cordova-plugin-geolocation": "1.0.2-dev",
     "com.google.playservices": "19.0.0"
 }
 // BOTTOM OF METADATA
