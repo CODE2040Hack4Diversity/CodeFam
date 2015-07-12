@@ -21,8 +21,21 @@
 		  </div>
     </div>
 
-		<div class="bar bar-subheader sub-menu z-depth-4" ng-click="see_filter()" ng-class="{'extend':filter}">
-		  <h1 class="title light-text">Filters</h1>
+		<div class="bar bar-subheader sub-menu z-depth-4" ng-class="{'extend':filter}" on-swipe-down="close_filter()">
+		  <h1 class="title light-text" ng-click="see_filter()">Filters</h1>
+
+		  <div class="fadein" ng-show="filter">
+		  	<div style="margin-top: 50px; height: 100%">
+          <div class="tabs">
+            <a class="tab-item">
+              Skills
+            </a>
+            <a class="tab-item">
+              Maps
+            </a>
+          </div>    
+        </div>
+		  </div>
 		</div>
 	</ion-content>
 </ion-view>

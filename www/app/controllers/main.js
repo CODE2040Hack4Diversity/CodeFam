@@ -27,6 +27,18 @@
       $scope.filter = !$scope.filter;
     };
 
+    $scope.open_filter = function(){
+      if($scope.filter == false){
+        $scope.filter = true;
+      }
+    };
+
+    $scope.close_filter = function(){
+      if($scope.filter == true){
+        $scope.filter = false;
+      }
+    };
+
     $scope.like = function(person){
       person.liked = true;
       $scope.clicked = false;

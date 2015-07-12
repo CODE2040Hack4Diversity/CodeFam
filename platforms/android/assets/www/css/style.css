@@ -14,6 +14,7 @@
   -ms-transform: translateY(-50%);
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
+  -moz-transform: translateY(-50%)  !important;
 }
 
 .sub-menu{ 
@@ -26,6 +27,7 @@
   transform: translateY(-100%) !important;
   -ms-transform: translateY(-100%) !important;
   -webkit-transform: translateY(-100%) !important;
+  -moz-transform: translateY(-100%)  !important;
   display: block !important;
 }
 
@@ -34,6 +36,7 @@
   transform: translateY(-100%) !important;
   -ms-transform: translateY(-100%) !important;
   -webkit-transform: translateY(-100%) !important;
+  -moz-transform: translateY(-100%)  !important;
   display: block !important;
   transition: all 1s;
 }
@@ -43,6 +46,7 @@
   transform: translateY(0%) !important;
   -ms-transform: translateY(0%) !important;
   -webkit-transform: translateY(0%) !important;
+  -moz-transform: translateY(0%)  !important;
   display: block !important;
   transition: all 1s;
 }
@@ -52,6 +56,7 @@
   transform: translateY(0%) !important;
   -ms-transform: translateY(0%) !important;
   -webkit-transform: translateY(0%) !important;
+  -moz-transform: translateY(0%)  !important;
   display: block !important;
   transition: all 1s;
 }
@@ -61,16 +66,18 @@
   transform: translateY(-100%) !important;
   -ms-transform: translateY(-100%) !important;
   -webkit-transform: translateY(-100%) !important;
+  -moz-transform: translateY(-100%)  !important;
   display: block !important;
   transition: all 1s;
 }
 
 .person-card{
-  min-height: 500px;
+  min-height: 400px;
   transition: all 0.5s ease;
   transform: translate(0%, -45%) !important;
   -ms-transform: translate(0%, -45%) !important;
   -webkit-transform: translate(0%, -45%) !important;
+  -moz-transform: translate(0%, -45%) !important;
 }
 
 .person-card.ng-hide-add-active {
@@ -78,6 +85,7 @@
   transform: translate(-100%, -45%) !important;
   -ms-transform: translate(-100%, -45%) !important;
   -webkit-transform: translate(-100%, -45%) !important;
+  -moz-transform: translate(-100%, -45%) !important;
   display: block !important;
   transition: all 0.5s;
 }
@@ -87,7 +95,8 @@
   transform: translate(110%, -45%) !important;
   -ms-transform: translate(110%, -45%) !important;
   -webkit-transform: translate(110%, -45%) !important;
-  transition: all 0.3s;
+  -moz-transform: translate(110%, -45%) !important;
+  transition: all 0.1s;
 }
 
 
@@ -96,7 +105,8 @@
   transform: translate(110%, -45%) !important;
   -ms-transform: translate(110%, -45%) !important;
   -webkit-transform: translate(110%, -45%) !important;
-  transition: all 0.3s;
+  -moz-transform: translate(110%, -45%) !important;
+  transition: all 0.1s;
 }
 
 
@@ -105,4 +115,37 @@
   position: absolute;
   bottom: 10px;
   right: 20px;
+}
+
+.like-button{
+  font-size: 40px;
+  position: absolute;
+  bottom: 10px;
+  right: 60px;
+}
+
+.sub-menu{
+  transition: all 2s;
+}
+
+.sub-menu.extend{
+  height: 100%;
+}
+
+.sub-menu.extend-add-active{
+  height: 100%;
+}
+
+.fadein {
+  opacity: 1;
+  height: 100%;
+  transition: all 0.5s;
+}
+
+.fadein.ng-hide-add-active {
+  opacity: 1;
+}
+
+.fadein.ng-hide-remove-active {
+  opacity: 1;
 }

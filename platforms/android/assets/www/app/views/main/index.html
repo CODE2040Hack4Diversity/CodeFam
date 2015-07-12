@@ -2,17 +2,48 @@
 	<ion-content class="has-header gray-body" on-swipe-left="get_next()">
     <div class="card margin person-card centering" ng-repeat="person in persons" ng-show="$index == index">
       <div class="card-content">
-        <span class="card-title grey-text text-darken-4">{{person.user}}<i class="icon ion-ios-close right card-icon" ng-click="see_more()"></i></span>
+        <span class="card-title grey-text text-darken-4">{{person.user}}</span>
         <p><a href="#!">This is a link</a></p>
       </div>
       <div class="card-reveal show-tab" ng-hide="clicked">
-        <span class="card-title grey-text text-darken-4">{{person.user}}<i class="icon ion-ios-plus material-icons right card-icon" ng-click="see_more()"></i></span>
+        <span class="card-title grey-text text-darken-4">{{person.user}}</span>
+        <br>
         <p>Here is some more information about this product that is only revealed once clicked on.</p>
       </div>
+
+      <div class="item tabs tabs-secondary tabs-icon-left" style="position: absolute">
+		    <a class="tab-item waves-effect" on-release="like(person)">
+		      <i class="icon" ng-class="{'ion-ios-star-outline' : !person.liked, 'ion-ios-star' : person.liked}"></i></span>
+		    </a>
+		    <a class="tab-item waves-effect" ng-click="see_more()">
+		      <i class="icon " ng-class="{'ion-ios-plus-outline' : !clicked, 'ion-ios-minus-outline' : clicked}"></i></span>
+		    </a>
+		  </div>
     </div>
 
-		<div class="bar bar-subheader sub-menu z-depth-4">
-		  <h1 class="title light-text">Filters</h1>
+		<div class="bar bar-subheader sub-menu z-depth-4" ng-class="{'extend':filter}" on-swipe-down="close_filter()">
+		  <h1 class="title light-text" ng-click="see_filter()" on-swipe-up="open_filter()">Filters</h1>
+
+		  <div class="fadein" ng-show="filter">
+		  	<div style="margin-top: 50px; height: 100%; border-radius: 5px">
+            <div class="card-content white-text">
+              <p>
+                <div class="list">
+                  <label class="item item-input item-select">
+                    <div class="input-label">
+                      Lightsaber
+                    </div>
+                    <select>
+                      <option>Blue</option>
+                      <option selected>Green</option>
+                      <option>Red</option>
+                    </select>
+                  </label>
+                </div>
+              </p>
+            </div>
+          </div>
+		  </div>
 		</div>
 	</ion-content>
 </ion-view>

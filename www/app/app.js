@@ -29,7 +29,7 @@ angular.module('codefam', ['ionic', "ngCordova", "ngAnimate", "codefam.usercontr
 })
 
 .config(function($ionicConfigProvider) {
-  if(!ionic.Platform.isIOS())$ionicConfigProvider.scrolling.jsScrolling(false);
+  $ionicConfigProvider.scrolling.jsScrolling(false);
 })
 
 
